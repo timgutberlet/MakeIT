@@ -1,0 +1,25 @@
+Field name,Type,Comment
+AgeID,integer,Official Australian government education ID.
+Head_campus_AgeID,integer,Official Australian government education ID for school head campus.
+School_name,varchar,Official school name. 
+Street,varchar,School street address (may include building/street number). 
+Town_suburb,varchar,School suburb/town.
+Postcode,integer,School postcode.
+Level_of_schooling,varchar,"Schooling level (or school type) flag. Options include: primary school, secondary school, combined school, special. "
+School_gender,varchar,"School population gender status. Options include: co-ed schools, girls schools, boys schools. "
+Sector,varchar,Classification of non-government schools. Subcategory options include: Catholic or Independent.
+Systemic,varchar,Systemic schools are formally affiliated with a group or system of schools. Non-systemic non-government schools do not belong to a system.
+School_affliation,varchar,Self-reported religious or philosophical beliefs and values maintained by the school. 
+Diocese,varchar,Districts under the pastoral care of a bishop in the Catholic church.
+Sys_desc,varchar,Education system the school belongs to. 
+School_speciality_indicator,varchar,School speciality flag. Options include: special or non-special.
+Campus_level,varchar,School type for campus level only. 
+School_url,varchar,School url address.
+LGA,varchar,Local government area. 
+Electorate,varchar,New South Wales electoral district (2015 boundaries). 
+Fed_electorate,varchar,Federal electorate divisions (2016 boundaries). 
+SA3,varchar,Statistical area level 3. SA3 regions are built from clustering groups of SA2s that have similar regional characteristics. 
+SA4,varchar,Statistical area level 4. SA4 regions are the largest sub-state regions in the ASGS.
+ASGS_remoteness,varchar,Remoteness category based on the ABS' Australian Statistical Geography Standard (ASGS) 2011 remoteness structure. Options include: provincial (incl. remote or very remote) and metropolitan. 
+Latitude,decimal,School latitude coordinates.
+Longitude,decimal,School longitude coordinates. 
